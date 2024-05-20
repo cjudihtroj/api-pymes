@@ -4,4 +4,4 @@ RUN pip3 install fastapi
 RUN pip3 install pydantic
 RUN pip3 install mysql-connector-python
 COPY . .
-CMD ["fastapi", "run", "./main.py", "--port", "9011"]
+CMD ["fastapi", "run", "./mainPymes.py", "--port", "9011"]
